@@ -20,7 +20,7 @@ btnEnvio.click(function enviarDatos(){
     /*alert("Listo");*/
     $.ajax({
         type:"POST",
-        url:"envio.php",
+        url:"http://martha13valadez.260mb.net/envio.php",
         data:"nombre="+nom+"&apellidop="+app+"&apellidom="+apm+"&telefono="+tel+"&email="+email+"&direccion="+direc+"&observaciones="+obs,
         success: recepcion
         });
